@@ -23,7 +23,6 @@ const obterCoordenadas = async (cidade) => {
     console.log(`Latitude: ${dados.coord.lat}`);
     console.log(`Longitude: ${dados.coord.lon}`);
 
-    // Chamar a função para obter as condições atuais
     obterCondicoesAtuais(dados.coord.lat, dados.coord.lon);
 
   } catch (erro) {
